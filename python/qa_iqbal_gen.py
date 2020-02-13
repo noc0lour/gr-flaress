@@ -58,7 +58,7 @@ def print_parameters(data):
 
 def print_all_images(data):
     to_print = "\images"
-    
+
     for image in data:
         to_print = to_print + image + ";"
 
