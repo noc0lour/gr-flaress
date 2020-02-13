@@ -18,21 +18,21 @@
 # the Free Software Foundation, Inc., 51 Franklin Street,
 # Boston, MA 02110-1301, USA.
 install(FILES
-    flaress_selector.xml
-    flaress_float_to_double.xml
-    flaress_float_to_int64.xml
-    flaress_selector.xml
-    flaress_snr.xml
-    flaress_vector_sink_x.xml
-    flaress_null_sink.xml 
-    flaress_debug_func_probe.xml
-    flaress_null_source.xml
-    flaress_vector_source_double.xml
-    flaress_vector_source_int64.xml
-    flaress_int_to_int64.xml
-    flaress_sine_debug.xml
-    flaress_fixed_point_math_xx.xml
-    flaress_integer_math_xx.xml
-    flaress_snr_estimator.xml
+    flaress_selector.block.yml
+    flaress_float_to_double.block.yml
+    flaress_float_to_int64.block.yml
+    flaress_selector.block.yml
+    flaress_snr.block.yml
+    flaress_vector_sink_x.block.yml
+    flaress_null_sink.block.yml 
+    flaress_debug_func_probe.block.yml
+    flaress_null_source.block.yml
+    flaress_vector_source_double.block.yml
+    flaress_vector_source_int64.block.yml
+    flaress_int_to_int64.block.yml
+    flaress_sine_debug.block.yml
+    flaress_fixed_point_math_xx.block.yml
+    flaress_integer_math_xx.block.yml
+    flaress_snr_estimator.block.yml
     DESTINATION share/gnuradio/grc/blocks
 )
